@@ -1,0 +1,9 @@
+print("Exercício #8-a")
+l1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+l2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+novaLst = []
+for i in range(len(l1)):
+    for j in range(len(l2)):
+        if (l1[i] == l2[j]) and (l1[i] != l1[i-1]) and (l2[j] != l2[j-1]):
+          novaLst.append(l1[i])
+print(novaLst)
