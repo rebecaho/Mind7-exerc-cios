@@ -1,0 +1,7 @@
+print("Exercício #1")
+nome = input("digite o seu nome: ")
+idade = int(input("digite a sua idade: "))
+anoAtual = 2019
+anoNascimento = anoAtual - idade
+calculoIdade = anoNascimento + 100
+print(nome + ", você irá fazer 100 anos em ", calculoIdade)
