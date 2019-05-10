@@ -1,0 +1,11 @@
+fp<-function(x){
+  if (x==0) return (0)
+  x=abs(x)
+  p=1 #flag: variável que indica uma situação
+  i=3
+  while (p==1 & i<x-1){
+    if (x%%i == 0) p=0
+    i=i+2
+  }
+  return(p)
+}
