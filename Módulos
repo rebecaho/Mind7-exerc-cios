@@ -1,0 +1,9 @@
+import random
+palavras = ['pizza', 'avião', 'carro', 'moto']
+print (random.choice (palavras))
+
+import math
+print (math.factorial (4))
+
+import datetime
+print (datetime.date.today())
